@@ -13,7 +13,7 @@
 	spl_autoload_register($autoload);
 
 
-	define('INCLUDE_PATH','http://localhost/myCode/Back-end/Projetos_Back/Ecommerce/');
+	define('INCLUDE_PATH','http://localhost/');
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'painel/');
 
 	define('BASE_DIR_PAINEL',__DIR__.'/painel');
@@ -23,7 +23,7 @@
 	define('HOST','localhost');
 	define('USER','root');
 	define('PASSWORD','');
-	define('DATABASE','mybanco_php');
+	define('DATABASE','database');
 
 	//Constantes para o painel de controle
 	define('NOME_EMPRESA','Raissa dev');
