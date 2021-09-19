@@ -54,8 +54,8 @@
                 <div class="btns itemsFlex alignCenter w100Mobile">
                     <a href="" class="AInput itemsFlex alignCenter">Ver Tudo</a>
                     <div class="arrows itemsFlex w70Mobile justEndMobile">
-                        <a class="svgInput itemsFlex alignCenter marginSideDefault"><i class="ri-arrow-left-s-line"></i></a>
-                        <a class="svgInput itemsFlex alignCenter"><i class="ri-arrow-right-s-line"></i></a>
+                        <a class="svgInput leftAction itemsFlex alignCenter marginSideDefault"><i class="ri-arrow-left-s-line"></i></a>
+                        <a class="svgInput rightAction itemsFlex alignCenter"><i class="ri-arrow-right-s-line"></i></a>
                     </div><!--arrow-->
                 </div><!--btns-->
             </div><!--titleCard-->
@@ -113,8 +113,8 @@
                 <div class="btns itemsFlex alignCenter w100Mobile">
                     <a href="" class="AInput itemsFlex alignCenter">Ver Tudo</a>
                     <div class="arrows itemsFlex w70Mobile justEndMobile">
-                        <a class="svgInput itemsFlex alignCenter marginSideDefault"><i class="ri-arrow-left-s-line"></i></a>
-                        <a class="svgInput itemsFlex alignCenter"><i class="ri-arrow-right-s-line"></i></a>
+                        <a class="svgInput leftAction itemsFlex alignCenter marginSideDefault"><i class="ri-arrow-left-s-line"></i></a>
+                        <a class="svgInput rightAction itemsFlex alignCenter"><i class="ri-arrow-right-s-line"></i></a>
                     </div><!--arrow-->
                 </div><!--btns-->
             </div><!--titleCard-->

@@ -500,6 +500,10 @@ li.windows{
 .card p.pricePromotion.small span{
     font-size: 0.7rem;
 }
+section.gamesApresentation {
+	max-width:100%;
+	overflow-x: hidden;
+}
 section.gamesApresentation .gamesListCustom{
 	flex-wrap: nowrap;
 	max-width: 100%;
