@@ -507,7 +507,7 @@ section.gamesApresentation {
 section.gamesApresentation .gamesListCustom{
 	flex-wrap: nowrap;
 	max-width: 100%;
-	overflow: hidden;
+	transition: all 0.5s linear;
 }
 section.gamesApresentation .cardTwo{
 	padding: 0;
