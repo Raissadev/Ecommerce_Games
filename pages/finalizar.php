@@ -34,10 +34,10 @@
                                     $total = 0;
                                     foreach($itemsCarrinho as $key => $value){
                                         $idProduto = $key;
-                                        $produto = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque` id = '$idProduto'");
+                                        $produto = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque` WHERE id = '$idProduto'");
                                         $produto->execute();
                                         $produto = $produto->fetch();
-                                        $produtoImagem = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque_imagens`");
+                                        $produtoImagem = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque_imagens` WHERE id = '$idProduto'");
                                         $produtoImagem->execute();
                                         $produtoImagem = $produtoImagem->fetch();
                                         $valor = $value * $produto['preco'];
