@@ -23,7 +23,7 @@
                         <option>Playstation</option>
                     </select>
                 </div><!--col-->
-                <div class="col">
+                <div class="col hideMobile">
                     <label>Ordenar por:</label>
                     <select class="marginSideDefault">
                         <option>Mais Relevantes</option>
