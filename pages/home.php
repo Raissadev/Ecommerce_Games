@@ -8,7 +8,7 @@
                 <?php
                     for($i = 0;$i < 2; $i++){
                 ?>
-                <div class="card grid-two marginSideDefault gridOneMobile minW60Mobile">
+                <div class="card grid-two marginSideDefault gridOneMobile minw80Mobile">
                     <figure class="gameImg">
                         <img src="<?php INCLUDE_PATH; ?>images/gameOne.jpg" />
                     </figure><!--gameImg-->
@@ -67,7 +67,7 @@
                         $imagem->execute();
                         $imagem = $imagem->fetch()['imagem'];
                 ?>
-                <div class="card cardTwo w20 minW50Mobile">
+                <div class="card cardTwo w20 minW70Mobile">
                     <?php if($imagem == ''){ ?>
                         <img src="<?php echo INCLUDE_PATH; ?>images/gameOne.jpg" />
                     <?php }else{ ?>
@@ -126,7 +126,7 @@
                         $imagem->execute();
                         $imagem = $imagem->fetch()['imagem'];
                 ?>
-                <div class="card cardTwo w20 minW50Mobile">
+                <div class="card cardTwo w20 minW70Mobile">
                     <?php if($imagem == ''){ ?>
                         <img src="<?php echo INCLUDE_PATH; ?>images/gameOne.jpg" />
                     <?php }else{ ?>
@@ -219,7 +219,7 @@
     <div class="wrap w95 center">
         <div class="row">
             <div class="titleCard marginDownDefault itemsFlex alignCenter">
-                <h2 class="w80"><span>The Orders </span> Games</h2>
+                <h2 class="w80"><span>The Orders </span></h2>
             </div><!--titleCard-->
             <div class="gamesList grid-two gridOneMobile">
                 <?php
