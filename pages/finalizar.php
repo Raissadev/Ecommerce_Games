@@ -30,6 +30,11 @@
                             </thead>
                             <tbody>
                                 <?php
+                                    if(!isset($_SESSION['carrinho'])){
+                                        echo '<script> alert("Você não possui items no carrinho"); </script>';
+                                        echo '<script> location.href = "'.INCLUDE_PATH.'" </script>';
+                                        die();
+                                    }
                                     $itemsCarrinho = $_SESSION['carrinho'];
                                     $total = 0;
                                     foreach($itemsCarrinho as $key => $value){
