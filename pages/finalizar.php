@@ -4,7 +4,7 @@
             <div class="titleCard">
                 <h2>Checkout</h2>
             </div><!--titleCard-->
-            <div class="breadcrumbs itemsFlex alignCenter justEnd">
+            <div class="breadcrumbs itemsFlex alignCenter justEnd hideMobile">
                 <a class="itemsFlex alignCenter marginSideDefault"><i class="ri-home-wifi-line"></i> Home</a>
                 <a class="itemsFlex alignCenter marginSideDefault"><i class="ri-arrow-right-line"></i> Carrinho</a>
             </div><!--breadcrumbs-->
@@ -13,9 +13,9 @@
 </section><!--cardApresentation-->
 
 <section class="cartContent">
-    <div class="wrap w90 center">
-        <div class="row grid-7x3">
-            <div class="col">
+    <div class="wrap w90 center w95Mobile">
+        <div class="row grid-7x3 gridOneMobile">
+            <div class="col marginDownMobileDefault">
                 <div class="card marginSideDefault">
                     <div class="cardBody marginDownMiddle">
                         <table>
@@ -34,7 +34,7 @@
                                     $total = 0;
                                     foreach($itemsCarrinho as $key => $value){
                                         $idProduto = $key;
-                                        $produto = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque` WHERE id = '$idProduto'");
+                                        $produto = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque` WHERE id = '$idProduto'"); //WHERE id = $idProduto
                                         $produto->execute();
                                         $produto = $produto->fetch();
                                         $produtoImagem = \MySql::conectar()->prepare("SELECT * FROM `tb_admin.estoque_imagens` WHERE id = '$idProduto'");
