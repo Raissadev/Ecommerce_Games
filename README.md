@@ -1,6 +1,6 @@
 # Ecommerce_Games
 <h2>Sobre o Projeto</h2>
-<p>Ecommerce de Games conectado ao dashboard, muito interativo e possui um layout interessante. 😊</p>
+<p>Ecommerce de Games conectado ao dashboard e com pagseguro integrado, muito interativo e possui um layout interessante. 😊</p>
 
 <br />
 <h3>Front-end:</h3>
